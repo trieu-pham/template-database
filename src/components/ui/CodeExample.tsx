@@ -92,7 +92,7 @@ export default function CodeExample() {
       <Badge>Developer-first</Badge>
       <h2
         id="code-example-title"
-        className="mt-2 inline-block bg-gradient-to-br from-gray-900 to-gray-800 bg-clip-text py-2 text-4xl font-bold tracking-tighter text-transparent sm:text-6xl md:text-6xl dark:from-gray-50 dark:to-gray-300"
+        className="mt-2 inline-block bg-linear-to-br from-gray-900 to-gray-800 bg-clip-text py-2 text-4xl font-bold tracking-tighter text-transparent sm:text-6xl md:text-6xl dark:from-gray-50 dark:to-gray-300"
       >
         Built by developers, <br /> for developers
       </h2>
@@ -102,14 +102,14 @@ export default function CodeExample() {
       </p>
       <CodeExampleTabs
         tab1={
-          <Code code={code} lang="sql" copy={false} className="h-[31rem]" />
+          <Code code={code} lang="sql" copy={false} className="h-124" />
         }
         tab2={
           <Code
             code={code2}
             lang="javascript"
             copy={false}
-            className="h-[31rem]"
+            className="h-124"
           />
         }
       />

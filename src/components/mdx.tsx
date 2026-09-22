@@ -81,7 +81,7 @@ export const Bold = (props: React.HTMLAttributes<HTMLSpanElement>) => (
 export function CustomLink(props: any) {
   let href = props.href
   const style =
-    "text-indigo-600 font-medium hover:text-indigo-500 dark:text-indigo-500 hover:dark:text-indigo-400"
+    "text-indigo-600 font-medium hover:text-indigo-500 dark:text-indigo-500 dark:hover:text-indigo-400"
   if (href.startsWith("/")) {
     return (
       <Link className={style} href={href} {...props}>

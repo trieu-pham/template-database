@@ -14,7 +14,7 @@ export default function TeamGallery() {
       <div className="mt-20">
         <div className="flex w-full flex-col items-center justify-between md:flex-row">
           <InstaxImage
-            className="w-[25rem] -rotate-6 sm:-ml-10"
+            className="w-100 -rotate-6 sm:-ml-10"
             src="/images/working.webp"
             alt="Two employees working with computers"
             width={640}
@@ -22,7 +22,7 @@ export default function TeamGallery() {
             caption="At Database we use computers"
           />
           <InstaxImage
-            className="w-[15rem] rotate-3"
+            className="w-60 rotate-3"
             src="/images/workplace.webp"
             alt="Office with a phone booth"
             width={640}
@@ -30,7 +30,7 @@ export default function TeamGallery() {
             caption="Our phone booths are nuts"
           />
           <InstaxImage
-            className="-mr-10 w-[15rem] rotate-1"
+            className="-mr-10 w-60 rotate-1"
             src="/images/home.webp"
             alt="Picture of the Fraumunster Zurich"
             width={640}
@@ -40,7 +40,7 @@ export default function TeamGallery() {
         </div>
         <div className="mt-8 hidden w-full justify-between gap-4 md:flex">
           <InstaxImage
-            className="-ml-16 w-[25rem] rotate-1"
+            className="-ml-16 w-100 rotate-1"
             src="/images/break.webp"
             alt="Team having a break in the lunch room"
             width={640}
@@ -48,7 +48,7 @@ export default function TeamGallery() {
             caption="Sometimes we take a break"
           />
           <InstaxImage
-            className="-mt-10 w-[15rem] -rotate-3"
+            className="-mt-10 w-60 -rotate-3"
             src="/images/cool.webp"
             alt="Personw with headphones"
             width={640}
@@ -56,7 +56,7 @@ export default function TeamGallery() {
             caption="Robin handels the playlist"
           />
           <InstaxImage
-            className="-mr-20 -mt-2 w-[30rem] rotate-[8deg]"
+            className="-mr-20 -mt-2 w-120 rotate-[8deg]"
             src="/images/release.webp"
             alt="Picture of a party with confetti"
             width={1920}

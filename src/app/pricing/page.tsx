@@ -225,7 +225,7 @@ export default function Pricing() {
         }}
       >
         <Badge>Pricing</Badge>
-        <h1 className="mt-2 inline-block bg-gradient-to-br from-gray-900 to-gray-800 bg-clip-text py-2 text-4xl font-bold tracking-tighter text-transparent sm:text-6xl md:text-6xl dark:from-gray-50 dark:to-gray-300">
+        <h1 className="mt-2 inline-block bg-linear-to-br from-gray-900 to-gray-800 bg-clip-text py-2 text-4xl font-bold tracking-tighter text-transparent sm:text-6xl md:text-6xl dark:from-gray-50 dark:to-gray-300">
           Our plans scale with you
         </h1>
         <p className="mt-6 max-w-2xl text-lg text-gray-700 dark:text-gray-400">
@@ -591,7 +591,7 @@ export default function Pricing() {
                         <Button
                           variant="light"
                           asChild
-                          className="group bg-transparent px-0 text-base hover:bg-transparent dark:bg-transparent hover:dark:bg-transparent"
+                          className="group bg-transparent px-0 text-base hover:bg-transparent dark:bg-transparent dark:hover:bg-transparent"
                         >
                           <Link href={plan.buttonLink}>
                             {plan.buttonText}
@@ -602,7 +602,7 @@ export default function Pricing() {
                         <Button
                           variant="light"
                           asChild
-                          className="group bg-transparent px-0 text-base text-indigo-600 hover:bg-transparent dark:bg-transparent dark:text-indigo-400 hover:dark:bg-transparent"
+                          className="group bg-transparent px-0 text-base text-indigo-600 hover:bg-transparent dark:bg-transparent dark:text-indigo-400 dark:hover:bg-transparent"
                         >
                           <Link href={plan.buttonLink}>
                             {plan.buttonText}
