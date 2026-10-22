@@ -1,6 +1,6 @@
 "use client"
 
-import { siteConfig } from "@/app/siteConfig"
+import { siteConfig } from "@/siteConfig"
 import useScroll from "@/lib/use-scroll"
 import { cx } from "@/lib/utils"
 import { RiCloseLine, RiMenuLine } from "@remixicon/react"
